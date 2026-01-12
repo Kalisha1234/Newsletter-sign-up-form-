@@ -234,3 +234,29 @@ button:hover {
     border-radius: 16px;      /* match card rounding */
     overflow: hidden;
 }
+
+.message {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.message.error {
+    color: hsl(4, 100%, 67%);
+}
+
+.message.success {
+    color: hsl(145, 63%, 42%);
+}
+
+input.error {
+    border-color: hsl(4, 100%, 67%);
+    background-color: hsl(4, 100%, 95%);
+}
+
+input.success {
+    border-color: hsl(145, 63%, 42%);
+}
+button:hover {
+    background-color: #ff6257;
+}
