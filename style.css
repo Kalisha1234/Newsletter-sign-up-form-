@@ -88,7 +88,7 @@ body {
     }
 
     .div2 img {
-        content: url('./Newsletter-sign-up-form-/images/illustration-sign-up-mobile.svg');
+        content: url('./images/illustration-sign-up-mobile.svg');
         width: 100%;
         height: auto;
         border-radius: 0 0 16px 16px;
