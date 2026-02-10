@@ -1,60 +1,11 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const form = document.getElementById('signup-form');
-    const emailInput = document.getElementById('email');
-    const message = document.querySelector('.message');
-    const overlay = document.getElementById('success-overlay');
-    const successEmail = document.getElementById('success-email');
-    const dismissBtn = document.getElementById('dismiss-btn');
-
-    function validateEmail(email) {
-        return /\S+@\S+\.\S+/.test(email);
-    }
-
-    if (form) {
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const email = (emailInput && emailInput.value || '').trim();
-            if (!validateEmail(email)) {
-                if (message) message.textContent = 'Please enter a valid email address.';
-                return;
-            }
-            if (message) message.textContent = '';
-
-            // Show success overlay and populate email text
-            if (successEmail) successEmail.textContent = email;
-            if (overlay) {
-                overlay.classList.remove('hidden');
-                overlay.setAttribute('aria-hidden', 'false');
-            }
-            // Optionally clear input
-            if (emailInput) emailInput.value = '';
-        });
-    }
-
-    if (dismissBtn) {
-        dismissBtn.addEventListener('click', () => {
-            if (overlay) {
-                overlay.classList.add('hidden');
-                overlay.setAttribute('aria-hidden', 'true');
-            }
-        });
-    }
-
-    // Close on Escape
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && overlay && !overlay.classList.contains('hidden')) {
-            overlay.classList.add('hidden');
-            overlay.setAttribute('aria-hidden', 'true');
-        }
-    });
-});
-const form = document.getElementById("form");
-const emailInput = document.getElementById("email");
-const message = document.querySelector(".message");
+//storing html elements in variables
+const form = document.getElementById("form"); // Form element
+const emailInput = document.getElementById("email"); // Email input field
+const message = document.querySelector(".message"); // Message display area
 
 // Email regex (simple & effective)
-const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
+//const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const emailRegex = /^\S+@\S+\.\S+$/; //It ensures the email contains one or more non-space characters, followed by a single @, then one or more non-space characters, a dot (.), and finally one or more non-space characters.
 // Real-time validation
 emailInput.addEventListener("input", () => {
     const email = emailInput.value.trim();
@@ -73,17 +24,22 @@ emailInput.addEventListener("input", () => {
 
 // Prevent submit if invalid
 form.addEventListener("submit", (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Prevent default form submission, reload the page
 
-    const email = emailInput.value.trim();
+    const email = emailInput.value.trim(); // Get trimmed email value
 
     if (!emailRegex.test(email)) {
         showError("Please enter a valid email");
         return;
     }
 
-    // Save email for success page
-    localStorage.setItem("email", email);
+    // Save current email for success page
+    localStorage.setItem("email", email); // Store email in localStorage
+
+    // Save to email list
+    const emails = JSON.parse(localStorage.getItem("emails") || "[]"); // Retrieve existing emails or initialize empty array
+    emails.push(email); // Add new email to the list
+    localStorage.setItem("emails", JSON.stringify(emails)); // Save updated email list back to localStorage
 
     // Redirect to success page
     window.location.href = "desktop-success.html";
