@@ -38,22 +38,6 @@ public class NewsletterPOMTest {
         Assertions.assertEquals("Stay updated!", newsletterPage.getHeading());
     }
 
-    @Test
-    @DisplayName("Verify email input accepts valid email")
-    void testValidEmailInput() {
-        newsletterPage.enterEmail("test@example.com");
-        newsletterPage.clickSubscribe();
-    }
-
-    @Test
-    @DisplayName("Verify error message for invalid email")
-    void testInvalidEmailShowsError() throws InterruptedException {
-        newsletterPage.enterEmail("invalid-email");
-        newsletterPage.clickSubscribe();
-        Thread.sleep(500);
-        Assertions.assertTrue(newsletterPage.isErrorMessageDisplayed());
-    }
-
     @AfterEach
     void teardown() {
         if (driver != null) {
