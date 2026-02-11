@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb8bd92b-e38f-4621-a2ed-4ec6d5935362" name="Changes" comment="" />
+    <list default="true" id="bb8bd92b-e38f-4621-a2ed-4ec6d5935362" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/selenium-project/target/surefire-reports/TEST-com.qa.NewsletterPOMTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/target/surefire-reports/TEST-com.qa.NewsletterPOMTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project/target/surefire-reports/TEST-com.qa.NewsletterUITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/target/surefire-reports/TEST-com.qa.NewsletterUITest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project/target/surefire-reports/com.qa.NewsletterPOMTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/target/surefire-reports/com.qa.NewsletterPOMTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project/target/surefire-reports/com.qa.NewsletterUITest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/target/surefire-reports/com.qa.NewsletterUITest.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
