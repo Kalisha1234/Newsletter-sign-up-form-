@@ -31,9 +31,8 @@ public class NewsletterUITest {
 
     @AfterEach
     void teardown() {
-        // Comment out driver.quit() to keep browser open
-        // if (driver != null) {
-        //     driver.quit();
-        // }
+        if (driver != null) {
+            driver.quit();
+        }
     }
 }
