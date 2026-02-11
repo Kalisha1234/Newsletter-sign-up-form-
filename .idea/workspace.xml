@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb8bd92b-e38f-4621-a2ed-4ec6d5935362" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project/src/test/java/com/qa/NewsletterUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/src/test/java/com/qa/NewsletterUITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project/target/classes/com/qa/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/target/classes/com/qa/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project/target/surefire-reports/TEST-com.qa.NewsletterUITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/target/surefire-reports/TEST-com.qa.NewsletterUITest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project/target/surefire-reports/com.qa.NewsletterUITest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/target/surefire-reports/com.qa.NewsletterUITest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project/target/test-classes/com/qa/NewsletterUITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/target/test-classes/com/qa/NewsletterUITest.class" afterDir="false" />
-    </list>
+    <list default="true" id="bb8bd92b-e38f-4621-a2ed-4ec6d5935362" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
