@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb8bd92b-e38f-4621-a2ed-4ec6d5935362" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium-project/target/surefire-reports/TEST-com.qa.NewsletterPOMTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/target/surefire-reports/TEST-com.qa.NewsletterPOMTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium-project/target/surefire-reports/TEST-com.qa.NewsletterUITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/target/surefire-reports/TEST-com.qa.NewsletterUITest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium-project/target/surefire-reports/com.qa.NewsletterPOMTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project/target/surefire-reports/com.qa.NewsletterPOMTest.txt" afterDir="false" />
@@ -18,42 +19,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Kalisha1234"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kalisha1234&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kalisha1234/Newsletter-sign-up-form-.git",
-    "accountId": "8871e668-366e-4f05-aedd-ab57e01c694c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kalisha1234/Newsletter-sign-up-form-.git&quot;,
+    &quot;accountId&quot;: &quot;8871e668-366e-4f05-aedd-ab57e01c694c&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="39WKZUrb3IhrgWKalwntS756xv0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.NewsletterUITest (1).executor": "Run",
-    "JUnit.NewsletterUITest.executor": "Run",
-    "JUnit.NewsletterUITest.testNewsletterPageLoads (1).executor": "Run",
-    "JUnit.NewsletterUITest.testNewsletterPageLoads.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.NewsletterUITest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NewsletterUITest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NewsletterUITest.testNewsletterPageLoads (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NewsletterUITest.testNewsletterPageLoads.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.NewsletterUITest (1)">
     <configuration name="NewsletterUITest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-project" />
