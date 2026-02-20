@@ -1,47 +1,87 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <title>Document</title>
+    <title>Product Newsletter Signup</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
-
 </head>
 <body>
-
-<div class="parent">
-    <section class="div1">
-        <h1 id="head"> Stay updated!</h1>
-        <p id="para">Join 60,000+ product managers receiving monthly updates on:</p>
-        <ul class="ul">
-            <li><img src="./images/icon-list.svg" alt="check icon">Product discovery and building what matters</li>
-            <li><img src="./images/icon-list.svg" alt="check icon">Measuring to ensure updates are a success</li>
-            <li><img src="./images/icon-list.svg" alt="check icon">And much more!</li> 
-        </ul>
-
-        <form id="form" action="#" method="post">
-            <div class="label-row">
-                <label for="email">Email address</label>
-                <small class="message"></small>
+    <div class="container">
+        <!-- Main card -->
+        <div class="card" id="signup-card">
+            <!-- CONTENT FIRST (will appear on LEFT side on desktop) -->
+            <div class="content">
+                <h1>Stay updated!</h1>
+                
+                <p class="description">
+                    Join 60,000+ product managers receiving monthly updates on:
+                </p>
+                
+                <div class="features">
+                    <div class="feature-item">
+                        <div><img src="./images/icon-list.svg" alt="check icon" class="check-icon"></div>
+                        <p>Product discovery and building what matters</p>
+                    </div>
+                    <div class="feature-item">
+                        <div><img src="./images/icon-list.svg" alt="check icon" class="check-icon"></div>
+                        <p>Measuring to ensure updates are a success</p>
+                    </div>
+                    <div class="feature-item">
+                        <div><img src="./images/icon-list.svg" alt="check icon" class="check-icon"></div>
+                        <p>And much more!</p>
+                    </div>
+                </div>
+                
+                <form id="signup-form">
+                    <div class="form-group">
+                        <div class="label-row">
+                            <label for="email">Email address</label>
+                            <span class="error-message" id="email-error">Valid email required</span>
+                        </div>
+                        <input 
+                            type="text" 
+                            id="email" 
+                            name="email" 
+                            placeholder="email@company.com"
+                        >
+                    </div>
+                    
+                    <button type="submit" id="subscribe-btn">
+                        Subscribe to monthly newsletter
+                    </button>
+                </form>
             </div>
-            <input 
-            type="email" 
-            id="email" 
-            name="email" 
-            placeholder="email@company.com"
-            required
-            >
-            <button id="subscribe-btn">Subscribe to monthly newsletter</button>
-        </form>
-    </section>
-
-
-    <section class="div2">
-        <img src = "./images/illustration-sign-up-desktop.svg" alt = "illustration-sign-up-desktop">
-    </section>
-</div>
+            
+            <!-- IMAGE SECOND (will appear on RIGHT side on desktop, BOTTOM on mobile) -->
+            <div class="illustration">
+                <!-- Desktop image (shown by default) -->
+                <img src="/images/illustration-sign-up-desktop.svg" alt="Newsletter illustration" class="desktop-img">
+                <!-- Mobile image (hidden by default) -->
+                <img src="./images/illustration-sign-up-mobile.svg" alt="Newsletter illustration" class="mobile-img">
+            </div>
+        </div>
+        
+        <!-- Success message (hidden by default) -->
+        <div class="success-message" id="success-message">
+            <div><img src="./images/icon-success.svg" class="desktop-icon" alt="check icon"></div>
+            
+            <h1 id="success">Thanks for subscribing!</h1>
+            
+            <p>
+                A confirmation email has been sent to <strong id="user-email">ash@loremcompany.com</strong>. 
+                Please open it and click the button inside to confirm your subscription.
+            </p>
+            <br>
+            
+            <button id="dismiss-btn">Dismiss message</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
