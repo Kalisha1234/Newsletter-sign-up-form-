@@ -17,9 +17,7 @@ emailInput.addEventListener("input", () => {
 
     if (!emailRegex.test(email)) {
         showError("Valid email required");
-    } else {
-        showSuccess("Email is valid!");
-    }
+    } 
 });
 
 // Prevent submit if invalid
